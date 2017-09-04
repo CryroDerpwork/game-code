@@ -19,8 +19,8 @@ label start:
     
     "Hm? What's that noise?"
     
-    show eileen happy
-    with Dissolve(1.0)
+    show remy
+    with moveinright(.5)
     
     r "Oh, hey! I'm glad you made it just fine. Any issues making it?"
     
@@ -69,7 +69,12 @@ label choice2_done:
     
     r "Well... if you say s-"
     
-    # I'm going to insert Bryce sliding into frame here, don't worry. - Remy
+    hide remy
+    show remy left
+    with moveleft (remy left)
+    
+    show bryce
+    with moveinright(.5)
     
     b "Hey, Max. Nice work today."
     
@@ -126,12 +131,14 @@ label choice3_yes:
     jump choice3_done
 label choice3_done:
     
+    return
+    
     jump choice4_yes
 label choice4_yes:
     
     b "What, not in the mood to get shitfaced?"
     
-    m "Maybe later, I promised the restof the day to Remy."
+    m "Maybe later, I promised the rest of the day to Remy."
     
     b "Well, that's understandable. Just know that you still have work tomorrow."
     
@@ -141,6 +148,12 @@ label choice4_yes:
     
     r "Goodbye, chief. Have a wonderful day."
     
+    hide bryce
+    show bryce left
+    with moveoutright(.5)
+    
+    jump choice4_done
+label choice4_done:
     
     
     
