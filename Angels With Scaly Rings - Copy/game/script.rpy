@@ -19,8 +19,10 @@ label start:
     
     "Hm? What's that noise?"
     
-    show remy
-    with moveinright(.5)
+    play music "Morning.mp3" fadeout 1
+    queue music "Morning.mp3"
+    show remy at center 
+    with moveinright
     
     r "Oh, hey! I'm glad you made it just fine. Any issues making it?"
     
@@ -70,11 +72,12 @@ label choice2_done:
     r "Well... if you say s-"
     
     hide remy
-    show remy left
-    with moveleft (remy left)
     
-    show bryce
-    with moveinright(.5)
+    show remy left at left
+    with move
+    
+    show bryce at right
+    with moveinright
     
     b "Hey, Max. Nice work today."
     
@@ -133,8 +136,8 @@ label choice3_done:
     
     return
     
-    jump choice4_yes
-label choice4_yes:
+    jump choice4_no
+label choice4_no:
     
     b "What, not in the mood to get shitfaced?"
     
@@ -148,12 +151,49 @@ label choice4_yes:
     
     r "Goodbye, chief. Have a wonderful day."
     
-    hide bryce
-    show bryce left
-    with moveoutright(.5)
+    show bryce left at offscreenright 
+    with move
+    
+    r "You didn't promise anything... Are you sure you wanted to stay?"
+    
+    m "Trust me, there is more to life than drinking your brain cells away."
+    
+    r "Really? Is that what you humans are like?"
+    
+    m "Sometimes it is fun to burn brain cells, so..."
+    
+    m "No."
+    
+    r "You gave me false hopes, Max."
     
     jump choice4_done
 label choice4_done:
+    
+    r "But... I just need to put this one last box away and we should be fine to roam around at our pleasure. If it isn't a bother, can you put it away for me?"
+    
+    menu:
+      
+        "Can do.":
+            jump choice5_yes
+        
+        "Do I need to?":
+            jump choice6_no
+            
+        "You owe me.":
+            jump choice7_yeswithattitude
+    
+    jump choice5_yes
+label choice5_yes:
+
+    m "Sure thing, Remy. Just... where do I need to put it?"
+    
+    r "On top of that shelf. You should be able to reach it... I hope."
+       
+    "Hey... this isn't that heavy."
+    
+    r "You got it, Max? Need any help?" 
+    
+    m "Nah, it's ok! Thank you for offering, though."
     
     
     
