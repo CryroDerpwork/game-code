@@ -18,25 +18,25 @@ define config.name = _("Angels With Scaly Wings")
 ## Determines if the title given above is shown on the main menu screen. Set
 ## this to False to hide the title.
 
-define gui.show_name = True
+define gui.show_name = False
 
 
 ## The version of the game.
 
-define config.version = "1.0"
+define config.version = "Demo"
 
 
 ## Text that is placed on the game's about screen. To insert a blank line
 ## between paragraphs, write \n\n.
 
-define gui.about = _("")
+define gui.about = _("Demo for the upcoming game that will take place here, Heartbe[a]sts.")
 
 
 ## A short name for the game used for executables and directories in the built
 ## distribution. This must be ASCII-only, and must not contain spaces, colons,
 ## or semicolons.
 
-define build.name = "AngelsWithScalyWings"
+define build.name = "Heartbe(a)stsDemo"
 
 
 ## Sounds and music ############################################################
@@ -46,7 +46,7 @@ define build.name = "AngelsWithScalyWings"
 
 define config.has_sound = True
 define config.has_music = True
-define config.has_voice = True
+define config.has_voice = False
 
 
 ## To allow the user to play a test sound on the sound or voice channel,
@@ -77,12 +77,12 @@ define config.exit_transition = dissolve
 
 ## A transition that is used after a game has been loaded.
 
-define config.after_load_transition = None
+define config.after_load_transition = Dissolve(1.0)
 
 
 ## Used when entering the main menu after the game has ended.
 
-define config.end_game_transition = None
+define config.end_game_transition = Dissolve(1.0)
 
 
 ## A variable to set the transition used when the game starts does not exist.
@@ -113,7 +113,7 @@ define config.window_hide_transition = Dissolve(.2)
 ## Controls the default text speed. The default, 0, is infinite, while any other
 ## number is the number of characters per second to type out.
 
-default preferences.text_cps = 0
+default preferences.text_cps = 3
 
 
 ## The default auto-forward delay. Larger numbers lead to longer waits, with 0
