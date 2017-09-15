@@ -180,20 +180,94 @@ label choice4_done:
             jump choice6_no
             
         "You owe me.":
-            jump choice7_yeswithattitude
-    
-    jump choice5_yes
+            jump choice7_yat
+            
 label choice5_yes:
 
     m "Sure thing, Remy. Just... where do I need to put it?"
     
     r "On top of that shelf. You should be able to reach it... I hope."
+    
+    show remy left at offscreenleft
+    with move
        
     "Hey... this isn't that heavy."
     
     r "You got it, Max? Need any help?" 
     
     m "Nah, it's ok! Thank you for offering, though."
+    
+    with vpunch
+    
+    m "And... There we go."
+    
+    r "Let me see."
+    
+    show remy left at middle
+    with move
+    
+    r "That's correct! Thanks, Maxy."
+    
+    r "It's a little hard for me to move things. You know, I'm clumsy."
+    
+    r "Anyways, I have something to take care of. I'll be quick! Probably, I will be gone for five minutes. I just need to clock out."
+    
+    r "Feel free to look around while I'm gone!"
+    
+    show remy at offscreenleft
+    with move
+    
+    jump choice5_done
+    
+label choice6_no
+
+    r "Seriously? It's only one box."
+    
+    m "I'm aware. And it's also not my job."
+    
+    r "You're impossible..."
+    
+    with vpunch
+    
+    m "See? It wasn't that bad."
+    
+    r "..."
+    
+    m "Oh, cheer up, sourpuss."
+    
+    r "I'll be back soon. I need to clock out. Stay here."
+    
+    show remy at offscreenleft 
+    with move
+    
+    jump choice6_done
+    
+label choice7_yat
+    
+    m "Sure, but you owe me one."
+    
+    r "Really? Like what?" 
+    
+    m "How about dinner? Tonight at your place?"
+    
+    r "Hm... interesting offer."
+    
+    r "Alright, dinner it is."
+    
+    "Why is this box so heavy...? What's in here?"
+    
+    with vpunch
+    
+    m "That was... a heavy box. What's in there?"
+    
+    r "Just a few books, that's all."
+    
+    r "Anyways, let me leave for a few minutes. I need to clock out, then we can roam around to our pleasure."
+    
+    r "Feel free to look around the library."
+    
+    show remy at offscreenleft
+    with move
     
     
     
