@@ -304,5 +304,7 @@ label choice7_done
     
     m "Hey! It works, doesn't it?" 
     
+    r "I guess it does. 
+    
 
 
