@@ -269,7 +269,40 @@ label choice7_yat
     show remy at offscreenleft
     with move
     
+    jump choice7_done
     
+label choice5_done
+label choice6_done
+label choice7_done
     
+    "Hm... maybe I should get a job in the library."
     
+    scene black
+    with dissolve(1.0)
+    
+    "Ten minutes later."
+    
+    scene bg_library1
+    with dissolve(1.0)
+
+    show remy left at middle
+    with move
+    
+    r "Hey, sorry I took so long. New worker here, and he needed to be shown around by me."
+    
+    m "Hey, it's fine. You do what you need to do."
+    
+    r "I'm not sure why I was chosen, though."
+    
+    r "I'm the clumsyist member that works here, and my only purpose is to be a laughing stock, I guess." 
+    
+    m "Hey, don't say that... People don't laugh at you."
+    
+    m "And if they do, I'll just kick their shins."
+    
+    r "You and your shin-kicking..."
+    
+    m "Hey! It works, doesn't it?" 
+    
+
 
