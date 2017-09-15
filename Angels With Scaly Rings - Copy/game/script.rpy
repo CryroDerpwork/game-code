@@ -39,6 +39,8 @@ label choice1_yes:
     
     r "Well, jeez... I'm sorry. I'll make sure to include them next time."
     
+    r "Did you at least enjoy the walk here?"
+    
     jump choice1_done
 label choice1_done:
     
@@ -69,9 +71,7 @@ label choice2_done:
     
     "Hey, I'm not going to lie."
     
-    r "Well... if you say s-"
-    
-    hide remy
+    r "Well... if you say so."
     
     show remy left at left
     with move
@@ -129,7 +129,7 @@ label choice3_yes:
     
     "If you see this, its because I didn't add more than this yet."
     "Try again, try to stay with Remy."
-    "Thank you for testing the hard demo."
+    "Thank you for testing the demo."
     
     jump choice3_done
 label choice3_done:
