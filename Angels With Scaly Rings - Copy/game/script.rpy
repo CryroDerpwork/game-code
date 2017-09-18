@@ -306,5 +306,7 @@ label choice7_done
     
     r "I guess it does. 
     
+    m "So, cutie, where would you like to go?"
+    
 
 
