@@ -308,5 +308,6 @@ label choice7_done
     
     m "So, cutie, where would you like to go?"
     
+    r "How about the park?"
 
 
