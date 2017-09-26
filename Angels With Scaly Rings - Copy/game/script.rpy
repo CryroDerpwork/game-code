@@ -321,7 +321,22 @@ label choice7_done
     r "I guess you're right. Where would you like to go?"
     
     
+    menu: 
     
+        "The park is great!":
+              jump choice8_park 
+              
+        "How about your place?":
+              jump choice9_rhome
+              
+        "I'd like to check out the beach.":
+              jump choice10_beach
+             
+        "Let's swing by Town Square.":
+              jump choice 11_tsquare
+              
+      
+    label choice8_park 
     
-
-
+    m "Well, I have no problem with the park."
+    m "Especially at this time of day. Things can be lively there."
