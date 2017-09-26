@@ -340,3 +340,5 @@ label choice7_done
     
     m "Well, I have no problem with the park."
     m "Especially at this time of day. Things can be lively there."
+    
+    r "I know, right? Now is my favorite time to go, read a book, and just relax." 
