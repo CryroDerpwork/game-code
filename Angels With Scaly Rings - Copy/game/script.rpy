@@ -5,6 +5,10 @@ define r = Character("Remy")
 define b = Character("Bryce")
 define wbr = Character("Written By Remy")
 define m = Character("Max")
+define a = Character("Argo")
+define h = Character("Heli")
+define l = Character("Lucki")
+define a = Character("Aoi")
 
 label start:
 
@@ -309,5 +313,15 @@ label choice7_done
     m "So, cutie, where would you like to go?"
     
     r "How about the park?"
+    
+    m "I swear, you have a fetish with parks..."
+    m "Everytime we go out, we always go to the park."
+    m "Not like I'm complaining, but it does get a little repetitive."
+    
+    r "I guess you're right. Where would you like to go?"
+    
+    
+    
+    
 
 
