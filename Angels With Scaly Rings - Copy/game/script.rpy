@@ -8,7 +8,7 @@ define m = Character("Max")
 define a = Character("Argo")
 define h = Character("Heli")
 define l = Character("Lucki")
-define a = Character("Aoi")
+define j = Character("Aoi")
 
 label start:
 
