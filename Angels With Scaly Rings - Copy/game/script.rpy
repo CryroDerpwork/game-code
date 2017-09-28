@@ -342,3 +342,13 @@ label choice7_done
     m "Especially at this time of day. Things can be lively there."
     
     r "I know, right? Now is my favorite time to go, read a book, and just relax." 
+	r "It's also fun to hang out and simply let all your problems go."
+	r "You know... With summer last year." 
+	
+	m "Yeah, I remember."
+	
+	r "Yep. So you can see ths issues I have and why I like this park."
+	r "It's, like.... magical."
+	
+	m "Magic doesn't exist."
+	r "That's why I said it was like magic..."
