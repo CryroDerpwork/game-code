@@ -1,5 +1,5 @@
-# Work in progress, I have 0 of the assets needed.
-# All characters, besides Max, are not mine.
+## Work in progress, I have 0 of the assets needed.
+## All characters, besides Max, are not mine.
 
 define r = Character("Remy")
 define b = Character("Bryce")
