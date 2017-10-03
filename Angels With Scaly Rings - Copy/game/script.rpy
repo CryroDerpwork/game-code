@@ -14,7 +14,8 @@ label start:
 
     scene black
 
-    wbr "Hey! I'm sorry I'm busy, but meet me at the library at 3:05 PM. I'll see you there, hopefully.      - Remy."
+    wbr "Hey! I'm sorry I'm busy, but meet me at the library at 3:05 PM. I'll see you there, hopefully."
+    wbr " -Rem"
 
     scene bg_library1
     with Dissolve(1.0)
@@ -71,9 +72,7 @@ label choice2_done:
     
     r "And due to my old habits of being clumsy, I get blamed for it..."
     
-    m "Hey, don't worry about it. Everyone makes mistakes. Even I do, writing this game."
-    
-    "Hey, I'm not going to lie."
+    m "Hey, don't worry about it. Everyone makes mistakes."
     
     r "Well... if you say so."
     
@@ -143,9 +142,9 @@ label choice3_done:
     jump choice4_no
 label choice4_no:
     
-    b "What, not in the mood to get shitfaced?"
+    b "What, not in the mood to get drunk?"
     
-    m "Maybe later, I promised the rest of the day to Remy."
+    m "Maybe tomorrow. I promised the rest of the day to Remy."
     
     b "Well, that's understandable. Just know that you still have work tomorrow."
     
@@ -358,3 +357,9 @@ label choice7_done
 	
 	m "I guess you could be right... Come on, do you want to stand around all day, or actually go to the park?" 
 	r "Alright, enough is enough. Let's go!"
+ 
+    scene black
+    with dissolve(1.0)
+    
+    scene park
+    with dissolve(1.0)
