@@ -347,8 +347,14 @@ label choice7_done
 	
 	m "Yeah, I remember."
 	
-	r "Yep. So you can see ths issues I have and why I like this park."
+	r "Yep. And you've seen the issues I have, so now you know why I like this park."
 	r "It's, like.... magical."
 	
 	m "Magic doesn't exist."
-	r "That's why I said it was like magic..."
+	r "Why do you have to be such a downer?"
+	m "I'm not a downer, I'm just pointing out the facts."
+	r "Lie to yourself sometimes. It makes life more..."
+	r "Bearable." 
+	
+	m "I guess you could be right... Come on, do you want to stand around all day, or actually go to the park?" 
+	r "Alright, enough is enough. Let's go!"
