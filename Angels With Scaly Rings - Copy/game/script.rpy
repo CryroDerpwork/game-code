@@ -28,32 +28,21 @@ label start:
     
     play music "Emotional.mp3" fadeout 1
     queue music "Emotional.mp3"
-    show remy at center 
-    with moveinright
+    show remy at center  with moveinright
+   
+    r "Oh, hey!s making it?"
     
-    r "Oh, hey! I'm glad you made it just fine. Any issues making it?"
-    
-    menu: 
-        "Yeah, thanks for not leaving directions.":
-            jump choice1_yes
-        
-        "Nope, just took a bit of walking.":
-            jump choice2_no
-    
-label choice1_yes:
-    
-    $ menu_flag = True
-    
-    r "Well, jeez... I'm sorry. I'll make sure to include them next time."
+ menu: 
+        "Yeving directions.":
+           jump choice1_yes
+       
+        "Nope, j bit of walking.":
+           jump choice2_no
+  r "Well, jeez... I'm sorry. I'll make sure to include them next time."
     
     r "Did you at least enjoy the walk here?"
-    
-    m "Yeah, I did. A nice town, this is."
-    
-    jump choice1_done
-label choice1_done:
-    
-label choice2_no:
+        m "Yeah, I did. A nice twn, this is."
+    label choice2_no:
     
     $ menu_flag = True
     
@@ -63,18 +52,13 @@ label choice2_no:
 label choice2_done:
     
     m "I did. I also noticed the ice cream man in the park."
+   library."
+    u work here?"
     
-    r "Yeah, he's nice. His ice cream is quite delicious, it really helps for the hot days here in the library."
-    
-    m "So, do you work here?"
-    
-    r "Yes, sir. I work in sorting out the different books and articles. Sometimes its tiring, but someone needs to do it, right?"
+to do it, right?"
 
-    m "Right. After all, I bet the customers love how you sort the books."
-    
-    r "Well... it isn't always like that. Sometimes some of the high school students come in to ruin some of the books."
-    
-    r "And due to my old habits of being clumsy, I get blamed for it..."
+ve how you sort the books."
+   r "And due to my old habits of being clumsy, I get blamed for it..."
     
     m "Hey, don't worry about it. Everyone makes mistakes."
     
