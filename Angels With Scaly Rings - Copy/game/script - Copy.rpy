@@ -361,5 +361,38 @@ with Dissolve(0.5)
 r "Here we are. The park."
 m "The same place we talked about everything."
 m "It's just like I remembered it."
+r "You do know why I brought us out here, right?"
+m "You gave me a choice, you know."
+r "That's not what I meant."
+r "What I mean is, you know why we came to this city?"
+m "This is your home, is it not?"
+r "...."
+"...."
+r "In saying it is, I would be lying to you."
+r "This is not my real home."
+r "Well, not my home town."
+m "What happened? You reflected on your love interest, but not this... why?"
+r" It's... a long story."
 
+menu:
+    "We have time.":
+         jump choice12_long
+         
+    "Make it short."
+         jump choice13_short
+         
+label choice12_long:
+
+m "We have all the time in the world. I'm not busy, you know."
+r "Well... prepare for a ride then.
+
+jump choice12_end
+label choice13_short:
+
+m "Mind shortening it a bit? I have things to do later."
+r "Yeah... I'll try."
+
+jump choice13_end
+label choice12_end:
+label choice13_end:
 return
