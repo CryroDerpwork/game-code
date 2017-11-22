@@ -395,4 +395,35 @@ r "Yeah... I'll try."
 jump choice13_end
 label choice12_end:
 label choice13_end:
+
+ "Three years."
+ "That's how long it's been."
+ "Do you know the feeling when you want to die? When your life feels likes it's crashing down on you?"
+ "I felt it when I was five."
+ "My dad was abusive and forced my mom, brother, and myself out of our own home."
+ "It was a very, very rough [i]winter[/i]."
+ " Having most of your home, heat, food, and other things needed to live taken away from you..."
+"And by the hands of one person..."
+"*Sigh*"
+"..."
+r "..."
+m "..."
+r "And well, that's my extended story."
+
+menu
+    "Sounds like a rough life.":
+        jump choice_rough
+        
+    "You really can't man up?":
+        jump choice_manup
+        
+label choice_rough
+
+m "Sounds like you've had a rough childhood..."
+m "But you've bounced back."
+r "Really? I have?"
+m "Yeah! For sure! You're an amazing cook, you work in a library, and you have a job for yourself."
+m "That's- without a doubt- more than I have accomplished!"
+
+ 
 return
