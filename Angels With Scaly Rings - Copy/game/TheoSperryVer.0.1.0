@@ -1,0 +1,14 @@
+start
+
+define s "System"
+
+s "Is this your first load?"
+
+menu
+    "Yes.":
+        jump main
+        
+    "No.":
+        jump no
+        
+if no then jump main
