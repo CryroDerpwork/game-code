@@ -1,14 +1,44 @@
 start
 
 define s "System"
+define co "Console Output"
 
 s "Is this your first load?"
 
 menu
-    "Yes.":
-        jump main
-        
     "No.":
         jump no
         
-if no then jump main
+    "Yes.":
+        jump yes
+
+
+label no:
+
+co "No."
+s "Understood. Recalibrating..."
+
+jump main
+
+label main:
+
+s "What would you like to view?"
+
+menu
+    "Textbook":
+          jump textbook
+          
+    "Bible":
+          jump bible
+          
+    "Article":
+          jump article
+          
+    "End"
+          jump end
+          
+label end
+
+s "Thank you for using! Goodbye!"
+
+return
