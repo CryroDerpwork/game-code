@@ -37,6 +37,30 @@ menu
     "End"
           jump end
           
+label textbook 
+
+s "What chapter would you like to view?"
+
+menu
+    "Chapter One":
+          jump co1
+          
+    "Chapter Two":
+          jump co2
+          
+    "Chapter Three":
+          jump co3
+          
+    "Chapter Four":
+          jump co4
+          
+    "Chapter Five":
+          jump co5
+          
+label co1  
+
+
+     
 label end
 
 s "Thank you for using! Goodbye!"
