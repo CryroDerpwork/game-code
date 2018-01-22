@@ -59,11 +59,66 @@ menu
           
 label co1  
 
-co "True Happiness. ''Happy the people so blessed; happy the people whose God is he Lord.''
+co "True Happiness. \"Happy the people so blessed; happy the people whose God is he Lord.\" "
 co "(Ps 144:15)"
 co "But, what is happiness?"
 
+screen ctc():
 
+    frame:
+        at ctc_appear
+        xalign .99
+        yalign .99
+
+        text _("(click to continue)"):
+            size 18
+
+transform ctc_appear:
+    alpha 0.0
+    pause 5.0
+    linear 0.5 alpha 1.0
+
+co "God is the source of true happiness."
+co "We all want to be happy because we were {b}made to be happy{/b}."
+co "\"True happine is found... In God alone, the source of every good and all of love.\" (CCC, 1723)"
+
+screen ctc():
+
+    frame:
+        at ctc_appear
+        xalign .99
+        yalign .99
+
+        text _("(click to continue)"):
+            size 18
+
+transform ctc_appear:
+    alpha 0.0
+    pause 5.0
+    linear 0.5 alpha 1.0
+
+co "The Restless Human Heart"
+co "Nothing in this life can make us fully happy. Why is this?"
+co "God gave us a hunger for happiness!"
+co "Only God can fulfill this hunger because he placed it in us!"
+co "St. Augustine: \"{i}Our heart is restless until it rests in you.{/i}\"
+
+screen ctc():
+
+    frame:
+        at ctc_appear
+        xalign .99
+        yalign .99
+
+        text _("(click to continue)"):
+            size 18
+
+transform ctc_appear:
+    alpha 0.0
+    pause 5.0
+    linear 0.5 alpha 1.0
+    
+    
      
 label end
 
