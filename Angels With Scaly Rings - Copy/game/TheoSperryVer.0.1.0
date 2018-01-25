@@ -103,20 +103,6 @@ co "God gave us a hunger for happiness!"
 co "Only God can fulfill this hunger because he placed it in us!"
 co "St. Augustine: \"{i}Our heart is restless until it rests in you.{/i}\"
 
-screen ctc():
-
-    frame:
-        at ctc_appear
-        xalign .99
-        yalign .99
-
-        text _("(click to continue)"):
-            size 18
-
-transform ctc_appear:
-    alpha 0.0
-    pause 5.0
-    linear 0.5 alpha 1.0
     
     
      
