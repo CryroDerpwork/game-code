@@ -424,6 +424,24 @@ m "But you've bounced back."
 r "Really? I have?"
 m "Yeah! For sure! You're an amazing cook, you work in a library, and you have a job for yourself."
 m "That's- without a doubt- more than I have accomplished!"
+r "Are you sure? You mean it?"
+m "Of course I do! I'd be crazy to lie."
+
+"Remy smiled."
+jump choice_rough_end
+
+label choice_manup
+m "You really can't man up?"
+r "Do you have any idea how hard that is?"
+
+"Remy frowned."
+r "Sorry for opening up, I guess."
+
+jump choice_manup_end
+
+
+label choice_rough_end:
+
 
  
 return
