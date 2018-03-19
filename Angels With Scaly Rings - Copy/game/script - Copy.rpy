@@ -439,7 +439,7 @@ r "Sorry for opening up, I guess."
 
 jump choice_manup_end
 
-
+label choice_manup_end:
 label choice_rough_end:
 
 
