@@ -3,7 +3,7 @@ start
 define s "System"
 define co "Console Output"
 
-s "Is this your first load?"
+s "Is this your first startup?"
 
 menu
     "No.":
@@ -137,7 +137,7 @@ co "Beauty, truth, moral goodness, personal conscience, justice, love, intellige
 co "Knowing God through Divine Revelation"
 co "Human language and human reason cannot fully describe God or really know what God is like."
 co "God is truly a mystery!"
-co "That is whyGod does not leave us on our own limited knowledge. He gives us Divine Revelation."
+co "That is why God does not leave us on our own limited knowledge. He gives us Divine Revelation."
 
 co "What is Divine Revelation?"
 co "1) God's free giftof self-communication by which he makes known his divine plan."
