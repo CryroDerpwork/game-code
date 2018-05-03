@@ -423,6 +423,33 @@ transform ctc_appear:
     linear 0.5 alpha 1.0
     
 jump textbook
+
+label co2:
+
+co “The Game of Life”
+co “Citius, Altius, Fortius.”
+co “We participate in the journey of life, hoping to be all that God intends for us: the best people we can be.” 
+
+screen ctc():
+
+    frame:
+        at ctc_appear
+        xalign .99
+        yalign .99
+
+        text _("(click to continue)"):
+            size 18
+
+transform ctc_appear:
+    alpha 0.0
+    pause 5.0
+    linear 0.5 alpha 1.0
+
+co “How to Locate and Read Bible References”
+co “1) Jn - The abbreviated title of the book.”
+co “2) First Number - Chapter number; verse number follows the colon. (:)”
+co “3) Hyphen (-) indicates serveral verses or chapters.”
+co “4) Semicolon (;) separates 
     
 label end:
 
