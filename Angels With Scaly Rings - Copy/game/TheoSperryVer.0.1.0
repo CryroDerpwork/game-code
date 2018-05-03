@@ -346,7 +346,7 @@ transform ctc_appear:
 co "Sacred Scripture"
 co "The word \"books\" means Bible."
 co "Jesus gave the Apostles authority to interpret the divinely inspired Scriptures."
-co "This teaching authority is known as the [i]Magisterium[/i]."
+co "This teaching authority is known as the {i}Magisterium{/i}."
 co "\"Whoever listens to you listens to me. Whoever rejects you rejects me. And whoever rejects me is the one who sends me.\" - Luke 10:16."
 
 screen ctc():
@@ -449,7 +449,47 @@ co “How to Locate and Read Bible References”
 co “1) Jn - The abbreviated title of the book.”
 co “2) First Number - Chapter number; verse number follows the colon. (:)”
 co “3) Hyphen (-) indicates serveral verses or chapters.”
-co “4) Semicolon (;) separates 
+co “4) Semicolon (;) separates two references; comma (,) separates two verses in the same chapter.”
+
+screen ctc():
+
+    frame:
+        at ctc_appear
+        xalign .99
+        yalign .99
+
+        text _("(click to continue)"):
+            size 18
+
+transform ctc_appear:
+    alpha 0.0
+    pause 5.0
+    linear 0.5 alpha 1.0
+
+co “The Bible Is the Inspired Word of God”
+co “{i}The Church teaches that:{/i}”
+co “1) God is the author of the Bible,”
+co “2) The Holy Spirit inspired the writes of the sacred books, and”
+co “3) The Sacred Scriptures teach the truth.”
+
+screen ctc():
+
+    frame:
+        at ctc_appear
+        xalign .99
+        yalign .99
+
+        text _("(click to continue)"):
+            size 18
+
+transform ctc_appear:
+    alpha 0.0
+    pause 5.0
+    linear 0.5 alpha 1.0
+
+co “What Is Inspiration?”
+co “God is the author of the Bible- he used the human authors as his instrument to convey Divine Revelation to us.”
+co “The end product: {b} The Inerrant Word of God{/b}” 
     
 label end:
 
