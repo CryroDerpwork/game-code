@@ -490,7 +490,222 @@ transform ctc_appear:
 co “What Is Inspiration?”
 co “God is the author of the Bible- he used the human authors as his instrument to convey Divine Revelation to us.”
 co “The end product: {b} The Inerrant Word of God{/b}” 
+
+screen ctc():
+
+    frame:
+        at ctc_appear
+        xalign .99
+        yalign .99
+
+        text _("(click to continue)"):
+            size 18
+
+transform ctc_appear:
+    alpha 0.0
+    pause 5.0
+    linear 0.5 alpha 1.0
+
+co “How To Read the Bible”
+co “We must pay attention to what the human authors wished to say to what God wanted to reveal through their words.”
+co “Vatican II: Scripture “must be read in the light of the same Spirit by whom it was written.” 
+
+screen ctc():
+
+    frame:
+        at ctc_appear
+        xalign .99
+        yalign .99
+
+        text _("(click to continue)"):
+            size 18
+
+transform ctc_appear:
+    alpha 0.0
+    pause 5.0
+    linear 0.5 alpha 1.0
+
+co “Vatican II On Sacred Scripture”
+co “1) Note the content and unify of the whole Scripture.”
+co “2) \”Read the Scriptures within ‘the living tradition of the whole Church’\””
+co “3) Pay attention to the \”analogy of faith.\””
+
+screen ctc():
+
+    frame:
+        at ctc_appear
+        xalign .99
+        yalign .99
+
+        text _("(click to continue)"):
+            size 18
+
+transform ctc_appear:
+    alpha 0.0
+    pause 5.0
+    linear 0.5 alpha 1.0
+
+co “Literary Forms”
+co “Identifying the correct literary genre is vitally important in scriptural interretation.”
+co “This helps to determine the literal sense of the biblical text.”
+co “1) Historical Book. 2) Prophecy. 3) Poetry. 4) Letters. 5) Genalogies. 6) Miracle Stories. 7) Parables.”
+
+screen ctc():
+
+    frame:
+        at ctc_appear
+        xalign .99
+        yalign .99
+
+        text _("(click to continue)"):
+            size 18
+
+transform ctc_appear:
+    alpha 0.0
+    pause 5.0
+    linear 0.5 alpha 1.0
+
+co “Different Readings of the Bible”
+co “<- Literal interpretation takes into account what the author intended to convey.”
+co “Literalist interpretation ignores various literary frms and the cultural and historical factors of the period in which the biblical authors wrote.” 
+
+screen ctc():
+
+    frame:
+        at ctc_appear
+        xalign .99
+        yalign .99
+
+        text _("(click to continue)"):
+            size 18
+
+transform ctc_appear:
+    alpha 0.0
+    pause 5.0
+    linear 0.5 alpha 1.0
+
+co “How to Understand the Bible”
+co “Literal Sense - What the author intended by the words he wrote.”
+co “Spiritual Sense - Looks to the deeper meaning of various scriptual passages as part of God’s overall plan of Salvation.”
+
+screen ctc():
+
+    frame:
+        at ctc_appear
+        xalign .99
+        yalign .99
+
+        text _("(click to continue)"):
+            size 18
+
+transform ctc_appear:
+    alpha 0.0
+    pause 5.0
+    linear 0.5 alpha 1.0
+
+co “The Senses: In Summary”
+co “Literal Sense: Teaches history; what the words say in a historical sense.”
+co “Allegorical Sense: Teaches what you should believe; what the words means in the larger context of Salvation History.”
+co “Moral Sense: Teaches what you should do regardng how to live your life.”
+co “Anagogical Sense: Teaches where you are going; building up the virtue of hope whle leading us to Heaven.” 
+
+screen ctc():
+
+    frame:
+        at ctc_appear
+        xalign .99
+        yalign .99
+
+        text _("(click to continue)"):
+            size 18
+
+transform ctc_appear:
+    alpha 0.0
+    pause 5.0
+    linear 0.5 alpha 1.0
+
+co “Biblical Translations”
+co “Most of the Old Testament was written in Hebrew.”
+co “The New Testament was written in \”koine\” Greek.”
+co “In 390, St. Jerome completed the Latin traslnation of both Testaments- the Vulgate.”
+co “There have been almost 500 new translations of individual books of the Bible.” 
+
+screen ctc():
+
+    frame:
+        at ctc_appear
+        xalign .99
+        yalign .99
+
+        text _("(click to continue)"):
+            size 18
+
+transform ctc_appear:
+    alpha 0.0
+    pause 5.0
+    linear 0.5 alpha 1.0
     
+co “Biblical Translations” 
+
+co “Protestant - King James Version, New Revised Standard Ver., Revised English Bible, and the New International Version.”
+co “Catholic - Douay-Rheims Version, New American Bible, New Jerusalem Bible.” 
+
+screen ctc():
+
+    frame:
+        at ctc_appear
+        xalign .99
+        yalign .99
+
+        text _("(click to continue)"):
+            size 18
+
+transform ctc_appear:
+    alpha 0.0
+    pause 5.0
+    linear 0.5 alpha 1.0
+
+co “Importance of the Bible of Catholics”
+co “Scripture readings are integral to every mass and all the sacraments.”
+co “Scripture is also at the heart of the Liturgy of the Hours- the public prayer of the Church.” 
+
+screen ctc():
+
+    frame:
+        at ctc_appear
+        xalign .99
+        yalign .99
+
+        text _("(click to continue)"):
+            size 18
+
+transform ctc_appear:
+    alpha 0.0
+    pause 5.0
+    linear 0.5 alpha 1.0
+
+co “Modern Approaches for Studying Sacred Scripture”
+co “The Catholic Church teaches up to read Sacred Scripture prayerfuly and interpret it critically.”
+co “The Magisterium authentically interprets the Word of God with the help of biblical scholars.” 
+
+screen ctc():
+
+    frame:
+        at ctc_appear
+        xalign .99
+        yalign .99
+
+        text _("(click to continue)"):
+            size 18
+
+transform ctc_appear:
+    alpha 0.0
+    pause 5.0
+    linear 0.5 alpha 1.0
+
+co “Types of \”Criticisms\” (not to be understood as a negative word)”
+co “
+
 label end:
 
 s "Thank you for using this tool! Goodbye!"
