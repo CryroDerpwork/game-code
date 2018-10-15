@@ -58,6 +58,8 @@ define Ragriz = Character(“Ragriz Tenaro”)
 define Onmato = Character(“Onmato Prinsur”)
 define Kinz = Character(“Kinz Tonoto”) 
 define Wantaga = Character(“Wantaga Carmelito”)
+define Monty = Character("Monty Conatilo")
+define Wicker = Character("Wicker Armagano")
 
 menu:
 	“Kai Roxas”:
@@ -68,4 +70,16 @@ menu:
 
 	“Remy Shinomira”:
 	jump remy_start_main
+
+label roxas_start_main
+
+jump roxas_chapter1_start
+
+label luck_start_main
+
+jump lucki_chapter1_start
+
+label remy_start_main
+
+jump remy_chapter1_start
 
