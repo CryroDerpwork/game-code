@@ -46,7 +46,7 @@ define Lacis2 = Character(“The Kind Servant”)
 define King = Character(“King Rialto”)
 define Devirum = Character(“Devirum Quay”)
 define Noctis = Character(“Noctis Cadere”)
-define Dies = Character(“Dies Cadere”) #Dies is Latin for Day#
+define Dies = Character(“Dies Cadere”) ##'Dies' is Latin for Day##
 define Fiffy = Character(“Fiffy Aralmando”)
 define Mehria = Character(“Mehria Rehiza”)
 define Jezebel = Character(“Jezebel Rehiza”)
@@ -75,7 +75,7 @@ label roxas_start_main
 
 jump roxas_chapter1_start
 
-label luck_start_main
+label lucki_start_main
 
 jump lucki_chapter1_start
 
@@ -83,3 +83,10 @@ label remy_start_main
 
 jump remy_chapter1_start
 
+##Chapter One##
+
+label roxas_chapter1_start
+label lucki_chapter1_start
+label remy_chapter1_start
+
+LuckiToYourself "
