@@ -116,4 +116,33 @@ menu:
 	"I'm a merchant headed towards town."
 	jump lucki_merchant_town
 
-label 
+label lucki_friends_separated
+
+Lucki "I lost my friends, we came traveling through here together..."
+Lucki "It seems that they have managed to make it, or get captured, without me."
+
+jump lucki_amandria_trust_1_1
+label lucki_merchant_town
+
+Lucki "I'm a merchant, heading to the town. My companions and I got jumped and raided, and left us out here for the vultures."
+Lucki "Or, scavengers. Whichever came first."
+
+jump lucki_amandria_trust_1_0
+label lucki_amandria_trust_1_0
+label lucki_amandria_trust_1_1
+
+
+
+"Amandria stood still. She unsheathed her sword and held it up to the dragon's neck. Only then were Lucki's eyes wide open, taking in the sight before him."
+"The feminine figure standing before him was undoubtibly a female, however her face was masked with a metallic face plate had obscured all of, if not most of her features."
+"Clad in full metal armor, she stood holding her sword with a firm grip. Nothing he had at the moment would help him in a fight."
+
+Amandria "What is your name, dragon?"
+Lucki "..."
+Lucki "Lucki."
+Amandria "Full name. You're way more than just ''Lucki.''"
+Lucki "Helitoria. Lucki Helitoria."
+
+"Amandria sheathed her sword and slowly took her mask off. She crossed her arm behind her back and rubbed her elbow."
+
+Amandria "Well, you don't look like someone that could do damage. Especially since you're the only one stil here... Come on. Grab what you can. We're heading for the town. Perhaps your friends could be there." 
