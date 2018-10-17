@@ -173,12 +173,14 @@ menu
 	"Search the crashed cart."
 	jump lucki_search_cart
 	
-	Search the sand."
+	"Search the sand."
 	jump lucki_search_sand
 	
 label lucki_search_rock
 
-"Lucki moved and looked towards a bigger rock not that far from the cart. He scanned the area before seeing the instrument he held so dear, broken into pieces beyond repair. Lucki sighed and picked it up, holding it in his hands before grabbing all of the broken pieces he could. 
+	$ lucki_search_rock = True
+
+"Lucki moved and looked towards a bigger rock not that far from the cart. He scanned the area before seeing the instrument he held so dear, broken into pieces beyond repair. Lucki sighed and picked it up, holding it in his hands before grabbing all of the broken pieces he could."
 
 "Perhaps he could use it for firewood..."
 
@@ -188,4 +190,30 @@ jump lucki_afterchoice_2
 
 label lucki_search_cart
 
-"Lucki inspected the cart, looking around 
+	$ lucki_search_cart = True
+
+"Lucki inspected the cart, looking around the ruined vehicle. The horses he had have ran away, it seems. Without a doubt, something had glistened within the cart: the sun hitting the strings of the violin. He had picked it up... before seeing that it hadn't held the test of being thrown around a crashed vehicle."
+
+"Perhaps it could be repaired... hopefully."
+
+"Obtained 'Damaged Violin.'"
+
+jump lucki_afterchoice_2
+
+label lucki_search_sand
+
+	$ lucki_search_sand = True
+	
+"Lucki had looked around the area, and then saw a few metallic pieces in the scorching sand. Lucki dug where he had saw it, and found his violin, although the strings were cut. Not all of them, luckily. There were two missing strings out of the six, and the bow was in good condition."
+
+"All it needs now is some replacement strings..."
+
+"Obtained 'Violin.'"
+
+jump lucki_afterchoice_2
+
+label lucki_afterchoice_2
+
+Amandria "Ready to get going?"
+Lucki "I think so. Everything else I need should be available at the town..."
+Lucki "Right?"
