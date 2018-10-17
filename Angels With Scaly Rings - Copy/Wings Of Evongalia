@@ -105,6 +105,15 @@ MysteriousH "At least, they were and I last was there."
 MysteriousH "And my name..."
 Amandria "Is Amandria. Pleasure to meet you, dragon."
 
-"Lucki stood quiet."
+"Lucki stood quiet. He took a minute to gather his surroundings, only to be greeted by waves and waves of sand and crashed carts."
 
+Amandria "So, you got a name? A crew? That's a lot of gear for just one person to be carrying around. Or are you a merchant?" 
 
+menu: 
+	"My friends got separated."
+	jump lucki_friends_separated
+	
+	"I'm a merchant headed towards town."
+	jump lucki_merchant_town
+
+label 
