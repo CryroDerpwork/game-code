@@ -34,7 +34,7 @@ define Villager = Character(“The Villager”)
 define Blacksmith = Character(“The Blacksmith”)
 define Mother = Character(“The Mother of Three”)
 define Child1 = Character(“The Eldest of Three”)
-define Child2 = Character(“The Middle of Three”)
+define Child2 = Character(“The Median of Three”)
 define Child3 = Character(“The Youngest of Three”)
 define Maniac = Character(“The Bloodthirsty Maniac”)
 define Thief = Character(“The Hooded Thief”)
@@ -60,6 +60,7 @@ define Kinz = Character(“Kinz Tonoto”)
 define Wantaga = Character(“Wantaga Carmelito”)
 define Monty = Character("Monty Conatilo")
 define Wicker = Character("Wicker Armagano")
+define Guard = Character("Guard")
 
 menu:
 	“Kai Roxas”:
@@ -209,6 +210,7 @@ label lucki_search_sand
 "All it needs now is some replacement strings..."
 
 "Obtained 'Violin.'"
+"Obtained 'Violin Bow.'"
 
 jump lucki_afterchoice_2
 
@@ -217,3 +219,29 @@ label lucki_afterchoice_2
 Amandria "Ready to get going?"
 Lucki "I think so. Everything else I need should be available at the town..."
 Lucki "Right?"
+Amandria "Yeah, I'm ninety percent sure on that one. We have an extensive library of shops, so I can't imagine many of your wanted items not being available for sale. Especially along Market Row."
+
+"Lucki rubbed the back of his neck, his tail gently swaying. The heat of the dessert and the beating sun wasn't so good for the ice dragon."
+
+Lucki "Shall we get going?"
+Amandria "Of course. I'll lead the way. Oh, and try not to get lost."
+
+##Transition to black, fade into being outside the town at dusk.##
+
+Guard "Amandria! Where have you been? Who is this ruffian?!"
+"The guards raised their weapons, an archer in the corner of Lucki's eye readying his bow."
+if $ lucki_merchant_town = True
+	jump lucki_entrance_merch
+
+then jump lucki_entrance_friends
+
+label lucki_entrance_merch
+Amandria "Stand down, he was a raided merchant!"
+"The archer released his draw, moving his bow to his side. The guards lowered their weapons, sheathing them before clearing their throats."
+Guard "You know that isn't something you should be so easily trusting. What makes you think he was a merchant?"
+Amandria "His cart was crashed with him in the wreckage. I think I know what a raided merchant is!"
+"The guards hung their heads before raising them again." 
+Amandria "Now let us through. Step aside."
+jump lucki_afterevent_1
+
+label lucki_entrance_friends
