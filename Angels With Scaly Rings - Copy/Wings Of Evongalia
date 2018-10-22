@@ -5,6 +5,7 @@ define LuckiToYourself = Character(“Lucki, to himself”)
 define RemyToYourself = Character(“Remy, to himself”)
 define KaiToYourself = Character(“Kai, to himself”)
 define Book = Character(“Book”)
+define MysteriousP = Character("Mysterious Person")
 define MysteriousH = Character(“Mysterious Human”)
 define MysteriousV = Character(“Mysterious Voice”)
 define MysteriousF = Character(“Mysterious Figure”)
@@ -54,7 +55,7 @@ define Rize = Character(“Rize Macanina”)
 define Percival = Character(“Percival Unionti”)
 define Lance = Character(“Lance Tomangona”)
 define Glive = Character(“Glive Tomangona”)
-define Ragriz = Character(“Ragriz Tenaro”)
+define Razgriz = Character(“Razgriz Tenaro”)
 define Onmato = Character(“Onmato Prinsur”)
 define Kinz = Character(“Kinz Tonoto”) 
 define Wantaga = Character(“Wantaga Carmelito”)
@@ -101,9 +102,9 @@ MysteriousV "Finally! You're awake!"
 ##Add in split bottom and top eye-opening transition.##
 
 Lucki "Who... who are you? Where are my friends?"
-MysteriousH "They're at the town, not too far from here."
-MysteriousH "At least, they were and I last was there."
-MysteriousH "And my name..."
+MysteriousP "They're at the town, not too far from here."
+MysteriousP "At least, they were and I last was there."
+MysteriousP "And my name..."
 Amandria "Is Amandria. Pleasure to meet you, dragon."
 
 "Lucki stood quiet. He took a minute to gather his surroundings, only to be greeted by waves and waves of sand and crashed carts."
@@ -248,4 +249,54 @@ label lucki_entrance_friends
 
 Amandria "And here we are. Welcome to the town of Platicia." 
 
-"The town seemed quite larger than what the dragon was used to. He looked around the torchlit streets, 
+"The town seemed quite larger than what the dragon was used to. He looked around the torchlit streets, the cobblestone beneith his boots sounding off with each and every step. He looked around, clearly a newcomer to the town. Amandria, however, knew her way around the town with clear ease."
+
+Amandria "Hey, Lucki. You coming in?" 
+"She seemed parked in front of a tavern, her hand on the door."
+
+menu
+	"Enter with her."
+	jump lucki_tavern_entrance_1
+	
+	"Stay outside."
+	jump lucki_tavern_exit_1
+	
+label lucki_tavern_entrance_1
+
+Lucki "Well... sure. Why not? A good drink or two won't hurt."
+"Lucki entered behind her, the guys at the bar and tables shouting in joy when Amandria entered. They immediately cocked their heads at the enterance of the white dragon behind her." 
+ Amandria "Gents, I present to you a new one among us. Lucki Helitoria!"
+ Lucki "Eh... hello, everyone..."
+ 
+ "Eyes peered at the dragon from all angles, some in plain sight, others in the smallest hideaway areas of the tavern. Many questioned why he was here- he looked like one not fit for areas like these."
+ 
+ Amandria "Here, come and take a seat with my guys."
+ "Amandria took a seat with a bluejay, rat, cheetah, and a lizard. The bluejay looked to be holding an accordian, an instrument Lucki hasn't seen since he was a child."
+ 
+Bard "Well, shall I play us some music? No good tableside gathering is complete without it."
+MysteriousP "Hit it, Kinz."
+"The one named Kinz slowly started to play, his arms moving while producing sweet music to Lucki's ears. It's been so long since he heard anything like that. He was snapped out of his thoughts when a drink was placed in front of him. It smelled like honey and alcohol."
+
+MysteriousP "You gonna drink, new guy?"
+Amandria "Come on, Onmato. You can't make him drink this early without a presentation."
+Onmato "Why not? It may get the little fella out of his shell a bit."
+MysteriousP "I'm not sure that's how this works!"
+Onmato "Ah, worry not, you worrying rat. I know his type Razgriz, he'll be fine."
+Amandria "Well? What you gonna do Lucki?" 
+
+menu 
+	"Drink."
+	jump lucki_tavern_drink_1
+	
+	"Refuse."
+	jump lucki_tavern_refuse_1
+	
+label lucki_tavern_drink_1
+
+"Lucki slowly put his hand around the handle of the mug and brought it to his lips, leaning his head back as he took a sip. The strong tasting mead tasted unlike anything he had ever had before, making him crave something sweet after all of the time he spent in the desert. The guys around the table clapped when he took his first sip."
+
+Onmato "Atta boy! I knew you'd enjoy it!"
+Razgriz "I can't believe the cheetah made him drink! That's a first he's ever done that!" 
+Kinz "My word! He downed it like he's had this beforehand!"
+Amandria "That's our dragon!"
+jump lucki_beforeevent_1
