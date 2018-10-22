@@ -233,7 +233,7 @@ Guard "Amandria! Where have you been? Who is this ruffian?!"
 if $ lucki_merchant_town = True
 	jump lucki_entrance_merch
 
-then jump lucki_entrance_friends
+else jump lucki_entrance_friends
 
 label lucki_entrance_merch
 Amandria "Stand down, he was a raided merchant!"
@@ -245,3 +245,7 @@ Amandria "Now let us through. Step aside."
 jump lucki_afterevent_1
 
 label lucki_entrance_friends
+
+Amandria "And here we are. Welcome to the town of Platicia." 
+
+"The town 
